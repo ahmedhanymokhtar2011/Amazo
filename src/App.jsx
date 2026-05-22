@@ -23,15 +23,15 @@ import ViewAllProducts from "./components/products/ViewAllProducts";
 
 import Home from "../Home"
 
-import MensCloths from "./components/products/mensCloths";
+import MensCloths from "../src/components/products/MensCloths";
 
-import WomensCloths from "./components/products/WomensCloths";
+import WomensCloths from "../src/components/products/WomensCloths";
 
-import TopRated from "./components/products/TopRated";
+import TopRated from "../src/components/products/TopRated";
 
-import ElectronicsProducts from "./components/products/ElectronicsProducts";
+import ElectronicsProducts from "../src/components/products/ElectronicsProducts";
 
-import ProductsDetails from "./components/products/ProductsDetails";
+import ProductsDetails from "../src/components/products/ProductsDetails";
 
 import Cart from "./components/Cart";
 
