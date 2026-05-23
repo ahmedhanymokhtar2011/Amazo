@@ -50,7 +50,7 @@ function ElectronicsProducts() {
                 </div>
 
                 {/* Products grid */}
-                <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5'>
+                <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5'>
 
                     {/* Loop through products and render cards */}
                     {products.map((item) => (

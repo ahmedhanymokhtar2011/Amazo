@@ -5,6 +5,8 @@ import { FaStar } from 'react-icons/fa'
 import { getSingleProduct } from '../productsAPI'
 import { useContext } from 'react'
 import { CartContext } from '../context/CartContext'
+import { SiKia } from 'react-icons/si'
+import SkeletonCard from '../SkeletonCard'
 
 function ProductsDetails() {
     const { id } = useParams();
@@ -32,7 +34,7 @@ function ProductsDetails() {
         fetchProduct();
     }, [id])
 
-    if (loading) return <p>Loading...</p>
+    if (loading) return <SkeletonCard/>
 
     return (
         <div className="container mx-auto px-6 py-16">

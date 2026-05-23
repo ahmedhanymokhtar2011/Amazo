@@ -39,6 +39,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import { ToastContainer } from 'react-toastify';
 import CheckOut from "./components/checkout/CheckOut";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
 
   // State to control popup visibility
@@ -79,6 +80,7 @@ function App() {
         handleOrderPopup={handleOrderPopup} />
 
       {/* Application Routes */}
+      <ScrollToTop/>
       <Routes>
 
         {/* Home page */}

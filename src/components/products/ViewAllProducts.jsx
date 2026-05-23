@@ -11,7 +11,6 @@ function ViewAllProducts({ searchTerm }) {
 const filteredProducts = products.filter((product) =>
     product.title.toLowerCase().includes(searchTerm.toLowerCase())
     )
-    console.log(filteredProducts)
     // State to store fetched products
 
     // State to handle loading state
@@ -66,7 +65,7 @@ const filteredProducts = products.filter((product) =>
 
                 {/* Products grid */}
                 <div>
-                    <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5'>
+                    <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5'>
 
                         {/* Loop through products and render each product card */}
                         {
